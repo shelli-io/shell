@@ -1,0 +1,18 @@
+{
+  "name": "shell",
+  "version": "0.0.1",
+  "description": "Run and manage docker containers.",
+  "main": "index.js",
+  "dependencies": {
+    "dockerode": "^3.1.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huhn",
+  "license": "MIT"
+}
